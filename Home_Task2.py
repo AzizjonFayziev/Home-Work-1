@@ -1,0 +1,5 @@
+a= int(input('введите 1 число:'))
+b= int(input('введите 2 число:'))
+c= int(input('введите 3 число:'))
+print(a + b + c, a - b - c, a * b * c, a / b / c)
+print(id(a), id(b), id(c))
